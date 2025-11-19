@@ -25,7 +25,8 @@ sudo dtc -I dts -O dtb -o new.dtb base.dts
 ```
 sudo cp /boot/dtb/tspi-rk3566-user-v10-linux.dtb /boot/dtb/tspi-rk3566-user-v10-linux.dtb.bak
 sudo cp new.dtb /boot/dtb/tspi-rk3566-user-v10-linux.dtb
-``
+```
+
 
 串口检查
 ```
