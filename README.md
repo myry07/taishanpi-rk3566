@@ -48,5 +48,12 @@ sudo picocom -b 1500000 /dev/ttyUSB0
 检查i2c
 ```
 ls /dev/i2c-*
-``
+```
+
+
+检查spi
+```
+ls /dev/spidev*
+``` 
+
 
