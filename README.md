@@ -21,7 +21,10 @@ sudo usermod -aG sudo myry
 su - myry
 ```
 
-
+查看内存信息
+```
+lsblk
+```
 
 
 
