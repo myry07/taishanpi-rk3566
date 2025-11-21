@@ -1,5 +1,24 @@
 # taishanpi-rk3566
 
+创建用户
+```
+sudo useradd -m myry
+```
+
+给管理员权限
+```
+sudo usermod -aG sudo myry
+```
+
+
+切换用户
+```
+su - myry
+```
+
+
+
+
 
 远程ssh
 ```
