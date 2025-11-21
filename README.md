@@ -5,6 +5,11 @@
 sudo useradd -m myry
 ```
 
+设置密码
+```
+sudo passwd 用户名
+```
+
 给管理员权限
 ```
 sudo usermod -aG sudo myry
