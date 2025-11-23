@@ -7,7 +7,7 @@ vim dockerfile
 ```
 
 dockerfile内容:  
-https://wiki.lckfb.com/zh-hans/tspi-rk3566/sdk-compilation/docker-compiling-environment.html
+https://wiki.lckfb.com/zh-hans/tspi-rk3566/sdk-compilation/docker-compiling-environment.html  
 
 创建镜像
 ```
