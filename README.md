@@ -6,6 +6,9 @@ sdk目录下创建dockerfile目录
 vim dockerfile
 ```
 
+dockerfile内容:  
+https://wiki.lckfb.com/zh-hans/tspi-rk3566/sdk-compilation/docker-compiling-environment.html
+
 创建镜像
 ```
 docker build -t my_docker_img .
