@@ -1,5 +1,43 @@
 # taishanpi-rk3566
 
+## sdk编译
+sdk目录下创建dockerfile目录
+```
+vim dockerfile
+```
+
+创建镜像
+```
+docker build -t my_docker_img .
+```
+
+查看镜像
+```
+docker images
+```
+
+创建容器  
+```
+docker run --privileged --mount type=bind,source=宿主容器同一目录 --name="容器id" -h lckfb -it 镜像id
+```
+
+查看可以运行的docker
+```
+docker ps -a
+```
+
+启动docker
+```
+docker start docker号
+```
+
+进入docker
+```
+docker attach docker号
+```
+
+
+
 创建用户
 ```
 sudo useradd -m myry
